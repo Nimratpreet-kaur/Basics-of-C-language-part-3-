@@ -4,7 +4,7 @@ float square(int n);
 int main()
 {
     int n;
-    printf("Enter a number you want to square: \n");
+    printf("Enter a number you want to square: ");
     scanf("%d", &n);
     square(n);
     return 0;
