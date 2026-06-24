@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-void square(int n);
+float square(int n);
 int main()
 {
     int n;
@@ -9,7 +9,7 @@ int main()
     square(n);
     return 0;
 }
-void square(int n)
+float square(int n)
 {
     printf("%f", pow(n , 2));
     //other way
