@@ -5,7 +5,7 @@ int fac(int n);
 int main()
 {
     int n;
-    printf("Enter a number : \n ");
+    printf("Enter a number : ");
     scanf("%d",&n);
     printf("Factorial is  %d \n ",fac(n));
 }
