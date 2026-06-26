@@ -10,7 +10,7 @@ int main()
     printf("Temperature in fahrenheit is %f \n",conCtoF(c));
     return 0;
 }
-float conCtoF(float c );
+float conCtoF(float c )
 {
     float f = (c*9/5) + 32;
     return f;
